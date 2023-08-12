@@ -10,3 +10,13 @@ all_colors = [
 
 #Your code go here:
 
+def filter_colors(colors):
+    return filter(lambda color: color["sexy"], colors)
+
+def generate_li(color):
+    return f"<li>{color['label']}</li>"
+sexy_colors = filter_colors(all_colors)
+li_elements = map(generate_li, sexy_colors)
+html = list(li_elements)
+print(html)
+

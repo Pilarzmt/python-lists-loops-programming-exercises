@@ -5,3 +5,25 @@ my_list = [3344,34334,454543,342534,4563456,3445,23455,234,262,2335,
 35,243,371,3251,351223,13231243,734,856,56,53,234342,56,545343]
 
 #Your code here:
+def global_num(my_list):
+    global_num = [100000000000]
+        for num in my_list:
+            if num < min
+    if i 
+
+
+
+def find_min_integer(my_list):
+    min_number = float('inf')  # Set initial value to positive infinity
+    for num in my_list:
+        if num < min_number:
+            min_number = num
+
+    return min_number
+
+# Example list
+my_list = [45, 78, 23, 98, 55, 34]
+
+# Find the minimum integer in the list
+result = find_min_integer(my_list)
+print(result)

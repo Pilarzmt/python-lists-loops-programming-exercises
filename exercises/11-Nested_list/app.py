@@ -4,3 +4,8 @@ coordinatesList = [[33.747252,-112.633853],[-33.867886, -63.987],[41.303921, -81
 # Your code go here:
 
 
+# Loop through the list and print only the longitudes
+for coordinate in coordinatesList:
+    longitude = coordinate[1]
+    print(longitude)
+

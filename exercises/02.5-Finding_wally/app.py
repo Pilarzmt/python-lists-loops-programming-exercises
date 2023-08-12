@@ -2,3 +2,16 @@ people = [ 'Lebron','Aaliyah','Diamond','Dominique','Aliyah','Jazmin','Darnell',
 
 #Your code here:
 
+#Lista vacia
+posiciones_wally = []
+
+# Iteramos sobre la lista utilizando enumerate para obtener el índice y el valor de cada elemento
+for i, nombre in enumerate(people):
+    # Verificamos si el nombre es igual a "Wally"
+    if nombre == "Wally":
+        # Si es igual, agregamos el índice a la lista de posiciones_wally
+        posiciones_wally.append(i)
+
+# Imprimimos las posiciones de Wally
+for posicion in posiciones_wally:
+    print(posicion)
